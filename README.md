@@ -34,8 +34,10 @@ contact.html ![alt text](image-2.png)
 index.html ![alt text](image-3.png)
 projects.html ![alt text](image-4.png)
 
-Css (jigsaw):
+Css:
 laptop.css: ![alt text](image-5.png)
 mobile.css: ![alt text](image-6.png)
 tablet.css: ![alt text](image-7.png)
 
+github website: ![alt text](image-8.png)
+links: ![alt text](image-9.png)
