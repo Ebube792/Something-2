@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # INFR3120 Assignment 1 - Portfolio Site
 Live site: 
 Repository: 
@@ -29,3 +30,6 @@ HTML5 attributes: `required`, `type="email"`, phone `pattern="[0-9]{10}"`, name 
 
 ## Testing
 HTML (W3C Validator), CSS (Jigsaw), links (W3C Link Checker), spelling, WAVE accessibility: 
+=======
+# Something-2
+>>>>>>> 74f7722e40d29cec5bfc2a4f1009d6fcf2a54c58
