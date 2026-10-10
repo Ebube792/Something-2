@@ -1,0 +1,16 @@
+/* TABLET (768px and up). 768px is the width of a portrait iPad, the most common tablet size. */
+nav ul { text-align: center; }
+nav li { float: left; width: 25%; }           /* 4 equal links in one row (using float) */
+nav a { border-bottom: 0; padding: 18px 8px; }
+nav a.active { box-shadow: inset 0 -4px 0 #F4C95D; }
+nav ul::after { content: ""; display: table; clear: both; }
+main { padding: 32px 24px 8px; }
+h1 { font-size: 2.3rem; }
+.hero { padding: 88px 32px; }
+.hero h1 { font-size: 2.8rem; }
+.portrait { float: left; width: 30%; margin: 0 28px 12px 0; }
+.feature { float: left; width: 31.33%; margin-right: 3%; min-height: 210px; }
+.feature:nth-child(3n) { margin-right: 0; }
+.project { float: left; width: 48%; margin-right: 4%; min-height: 190px; }
+.project:nth-child(2n) { margin-right: 0; }   /* 2 projects per row */
+form { width: 80%; margin: 0 auto; }

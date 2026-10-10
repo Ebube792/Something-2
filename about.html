@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me | Ebube Okoronkwo</title>
+  <!-- mobile.css = base styles; tablet/laptop only switch on at wider screens via media attribute -->
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/tablet.css" media="(min-width: 768px)">
+  <link rel="stylesheet" href="css/laptop.css" media="(min-width: 1024px)">
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <ul><li><a href="index.html">Home</a></li><li><a href="about.html" class="active">About Me</a></li><li><a href="projects.html">Projects</a></li><li><a href="contact.html">Contact Me</a></li></ul>
+    </nav>
+  </header>
+  <main>
+    <article class="card clearfix">
+      <h1>About Me</h1>
+      <img class="portrait" src="images/me.jpeg" alt="Photo of Ebube">
+      <p>Hi, My name is Ebube okoronkwo and i am currently studying IT Security & Networking at Ontariotech University. My hobbies are playing sports (track, Badminton, soccer), Playing Games and Modding. After graduation i would like to hopefully get a job For IT, basically trying to prevent cyber attacks and if that doesnt work out ill try to become a content creator!</p>
+    </article>
+    <section class="card">
+      <h2>Introduction Video</h2>
+      <!-- controls shows play/pause; poster is the image shown before playing -->
+      <video controls poster="images/poster.jpg" preload="metadata">
+        <source src="videos/intro.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+  </main>
+  <footer>
+    <p>Contact: <a href="mailto:Ebube.okoronkwo@ontariotechu.net">Ebube.okoronkwo@ontariotechu.net</a></p>
+    <p>&copy; 2026 Ebube Okoronkwo. All rights reserved.</p>
+  </footer>
+</body>
+</html>

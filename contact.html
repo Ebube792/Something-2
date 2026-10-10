@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Me | Ebube okoronkwo</title>
+  <!-- mobile.css = base styles; tablet/laptop only switch on at wider screens via media attribute -->
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/tablet.css" media="(min-width: 768px)">
+  <link rel="stylesheet" href="css/laptop.css" media="(min-width: 1024px)">
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Me</a></li><li><a href="projects.html">Projects</a></li><li><a href="contact.html" class="active">Contact Me</a></li></ul>
+    </nav>
+  </header>
+  <main>
+    <section class="card">
+      <h1>Contact Me</h1>
+      <p>Send me your questions, comments and project related queries!</p>
+      <!-- Validation is done by the browser using required, type, pattern and maxlength -->
+      <form action="mailto:you@example.com" method="post" enctype="text/plain">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required minlength="2" maxlength="60" pattern="[A-Za-z\s'.\-]+" title="Letters and spaces only">
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Cell No. (10 digits)</label>
+        <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" title="Enter exactly 10 digits, no spaces or dashes">
+
+        <label for="message">Comments</label>
+        <textarea id="message" name="message" rows="6" required minlength="10" maxlength="500" placeholder="Question, comment or query..."></textarea>
+
+        <label for="robot">What is 2+2? (So I know you aren't a robot)</label>
+        <input type="text" id="robot" name="robot" required pattern="4|four" title="Type 4">
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Contact: <a href="mailto:Ebube.okoronkwo@ontariotechu.net">Ebube.okoronkwo@ontariotechu.net</a></p>
+    <p>&copy; 2026 Ebube Okoronkwo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
