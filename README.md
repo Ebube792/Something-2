@@ -29,3 +29,13 @@ None so far.
 
 ## Testing
 HTML (W3C Validator), CSS (Jigsaw), links (W3C Link Checker), spelling, WAVE accessibility: 
+for about.html: ![alt text](image-1.png)
+contact.html ![alt text](image-2.png)
+index.html ![alt text](image-3.png)
+projects.html ![alt text](image-4.png)
+
+Css (jigsaw):
+laptop.css: ![alt text](image-5.png)
+mobile.css: ![alt text](image-6.png)
+tablet.css: ![alt text](image-7.png)
+
